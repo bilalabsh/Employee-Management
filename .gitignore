@@ -1,0 +1,17 @@
+# Ignore Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.cache
+*.db
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific settings
+*.vscode/
+*.DS_Store
+
+# Ignore package dependencies
+node_modules/
