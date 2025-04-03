@@ -4,15 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-EmployeeManagement.Web-5d492b4e-365a-4003-a998-5e5340b2c9fa</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.13" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.13" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.13" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.13" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.13" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagement.Common\EmployeeManagement.Common.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Core\EmployeeManagement.Core.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Domain\EmployeeManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>
